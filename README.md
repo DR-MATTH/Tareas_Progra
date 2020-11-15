@@ -1,2 +1,5 @@
 # Tareas_Progra
-Repositorio para presentar las tareas de la materia del 4to semestre: Programación Avanzada 
+
+# N Caballos en un tablero NxN
+La solución propuesta usa backtracking para evitar realizar operaciones
+innecesarias e imprime todas las posibles soluciones por consola
