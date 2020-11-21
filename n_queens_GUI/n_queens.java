@@ -2,15 +2,15 @@ package Tareas_Progra.n_queens_GUI;
 
 import java.util.LinkedList;
 
-public class n_queens {
-  public static void main(String args[]) {
-    LinkedList<LinkedList<Integer>> resultado = nQueens(4);
-    for (LinkedList<Integer> solucion : resultado) {
-      System.out.println(solucion);
-    }
-  }
+public class N_queens {
+  // public static void main(String args[]) {
+  // LinkedList<LinkedList<Integer>> resultado = solve(4);
+  // for (LinkedList<Integer> solucion : resultado) {
+  // System.out.println(solucion);
+  // }
+  // }
 
-  public static LinkedList<LinkedList<Integer>> nQueens(int n) {
+  public static LinkedList<LinkedList<Integer>> solve(int n) {
     LinkedList<LinkedList<Integer>> resultado = new LinkedList<>();
     solveQueens(n, 0, new LinkedList<Integer>(), resultado);
     return resultado;
