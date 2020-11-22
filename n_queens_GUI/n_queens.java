@@ -16,8 +16,9 @@ public class N_queens {
     return resultado;
   }
 
-  private static void solveQueens(int n, int row, LinkedList<Integer> colPlacements,
-      LinkedList<LinkedList<Integer>> resultado) {
+  private static void solveQueens(int n, int row,
+    LinkedList<Integer> colPlacements,
+    LinkedList<LinkedList<Integer>> resultado) {
 
     if (row == n) {
       resultado.add(new LinkedList<Integer>(colPlacements));

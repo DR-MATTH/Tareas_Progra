@@ -22,7 +22,7 @@ public class GUI extends JFrame {
 
   private JPanel panelBoard;
   private JLabel total_solutions;
-  private int num_reinas = 1;
+  private int num_reinas = 1; // por defecto
   private int solucion_actual = 0;
   private final static int SIZE = 600;
   private JButton[][] cells;
