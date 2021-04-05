@@ -2,7 +2,7 @@ package Tareas_Progra.n_queens_GUI;
 
 import java.util.LinkedList;
 
-public class N_queens {
+class N_queens {
   // public static void main(String args[]) {
   // LinkedList<LinkedList<Integer>> resultado = solve(4);
   // for (LinkedList<Integer> solucion : resultado) {
